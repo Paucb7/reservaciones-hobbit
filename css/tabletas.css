@@ -1,0 +1,417 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+body{
+    font:'trebuchet ms', 'arial', 'sans-seriff';
+    background: #FFF;
+    
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.3em;
+}
+
+img {
+    border: 0;
+}
+
+h1,h2,h3 {
+    color: #061A40;
+    letter-spacing: 0em;
+    padding: 0 0 5px 0;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #006DAA
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+#main, #menu_bar, #contenido_sitio #contenido_pie {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background: #0353A4;
+    border-bottom: 1px solid #061A40;
+    height: 186px;
+    
+}
+
+#banner {
+    background: transparent url(hobbiton_i.jpg) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD
+}
+
+#banner_historia {
+    background: transparent url(hobbiton_h.png) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD
+}
+
+#banner_atractivos {
+    background: transparent url(hobbiton_a.png) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD;
+}
+
+#banner_testimonios {
+    background: transparent url(hobbiton_t.png) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD;
+}
+
+#banner_reservaciones {
+    background: transparent url(hobbiton_r.png) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD;
+}
+
+#banner_conoceMas {
+    background: transparent url(hobbiton_cm.png) no-repeat;
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    position: static;
+    border: 5px solid #DDD;
+}
+
+#header_text {
+    color:#FFF
+}
+
+
+#logo_text {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+#logo_text h1 {
+    font: normal 400% 'century gothic', 'arial', 'sans-serif';
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0 0 0 9px;
+}
+
+#logo_text h2 {
+    font: normal 150% 'Lucida Handwriting';
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0 0 0 36px;
+    padding: 4px 0 0 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+    padding: 18px 0 0 0;
+    color: #FFF;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+
+#menu_bar {
+    height: 48px;
+    padding-right: 8px;
+    background: #061A40;
+    border-top: 1px solid #02242f
+}
+
+ul#menu {
+    float: center;
+    margin: 0;
+}
+
+ul#menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 8px 4px 0 4px
+}
+
+
+ul#menu li a {
+    font: normal 100% 'trebuchet ms', 'sans-serif';
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 6px 20px 5px 20px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    background:#0353A4;
+   
+}
+
+ul#menu li.selected a {
+    height: 20px;
+    padding: 6px 20px 5px 11px;
+}
+
+ul#menu li.selected {
+    margin: 8px 4px 0 13px;
+    background: #006DAA;
+}
+
+ul#menu li.selected a, ul#menu li.selected a:hover{
+    background:#006DAA;
+    color: #FFF
+}
+
+ul#menu li a:hover {
+    color: #006DAA
+}
+
+#contenido_sitio {
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 0 0 10px 0;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0;
+    overflow: hidden;
+    }
+    
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+#sidebar_container {
+    float: left;
+    width: 224px;
+
+}
+
+#sidebar_container {
+    float: left;
+    width: 224px;
+}
+
+.sidebar_top {
+    width: 222px;
+    height: 14px;
+    background: url(side_top.png) no-repeat;
+}
+
+.sidebar_base {
+    width: 222px;
+    height: 14px;
+    background: url(side_base.png) no-repeat;
+}
+
+.sidebar {
+    float: right;
+    width: 222px;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.sidebar_item {
+    background: url(side_back.png) repeat-y;
+    padding: 0 15px;
+    width: 192px;
+}
+
+.sidebar_item p.parrafo {
+    font: normal 90% 'Helvetica'
+}
+
+.sidebar li a.selected {
+    color: #06BEE1
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+#contenidoPag {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: right;
+}
+
+#contenidoPag ul {
+    margin: 2px 0 22px 0px;
+
+}
+
+#contenidoPag ul li, .sidebar ul li {
+    list-style-type: square;
+    margin: 0 0 0 0;
+    padding: 0 0 4px 25px;
+    line-height: 1.5em;
+    font: normal 110% 'Courier New';
+}
+
+#contenidoPag p {
+    font: normal 120% 'Helvetica'
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#citas_pieIndex {
+    margin-left: 42%;
+    font-size: 90%;
+}
+
+#citas_pieAtractivos {
+    margin-left: 42%;
+    font-size: 90%
+}
+
+#citas_pieTestimonios {
+    margin-left: 42%;
+    font-size: 90%;
+}
+
+#citas_pieConoceMas {
+    margin-left: 42%;
+    font-size: 90%;
+}
+
+
+#contenido_pie {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    height: 80px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background:#00171F;
+    border-top: 2px solid #02242f;
+    color:#FFF;
+
+}
+
+#contenido_pie p {
+    line-height: 1.7em;
+    padding: 0 0 10px 0;
+}
+
+#contenido_pie a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#contenido_pie a:hover {
+    color: #006DAA;
+    text-decoration: none;
+}
+
+.search {
+    color: #0353A4;
+    border: 1px solid #DDD;
+    width: 134px;
+    padding: 4px;
+    font: 100% 'arial', 'sans-serif';
+
+}
+
+.form_settings {
+    margin: 15px 0 0 0;
+}
+
+.form_settings p {
+    padding: 0 0 4px 0;
+}
+
+.form_settings input, .form_settings textarea {
+    padding: 5px;
+    width: 299;
+    font: 100% 'arial';
+    border: 1px solid #B9D6F2;
+    background: #FFF;
+    color: #0353A4
+}
+
+.form_settings .submit {
+    font: 100% arial; 
+  border: 0; 
+  width: 125px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #061A40; 
+  color: #FFF;
+}
+
+.form_settings textarea, .form_settings select {
+    font: 100% 'arial';
+    width: 299px;
+}
+
+.form_settings select {
+    width: 310px;
+}
